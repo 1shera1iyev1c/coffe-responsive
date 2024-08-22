@@ -3,7 +3,7 @@ let elCloseBtn = document.querySelector('.close__btn')
 let elBurgerBtn = document.querySelector('.closed__menu')
 
 
-elBtn.addEventListener('click', function (evt) {
+elBtn.addEventListener('click', function () {
     elBurgerBtn.classList.add('burger__menu')
     elBurgerBtn.classList.remove('closed__menu')
 })
