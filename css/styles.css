@@ -148,6 +148,44 @@ header {
     max-width: 234px;
 }
 
+nav{
+    padding: 50px;
+}
+
+.nav__container {
+    background-image: url(../img/nav-desktop.jpg);
+    padding: 117px 85px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.nav__title {
+    font-family: 'Fraunces  ';
+    font-size: 72px;
+    font-weight: 900;
+    max-width: 493px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.nav__text {
+    font-size: 16px;
+    color: #FEFCF7  ;
+    max-width: 405px;
+    opacity: .6;
+    margin-bottom: 56px;
+}
+
+.nav__link {
+    background-color: #66D2CF;
+    color: #FEFCF7;
+    padding: 15px 31px;
+    border-radius:6px; 
+}
+
+
 @media screen and (max-width: 1130px) {
     .our__img{
         max-width: 850px;
@@ -203,6 +241,24 @@ header {
         font-size: 16px;
         line-height: 28px
     }
+
+    .nav__container{
+        background: url(../img/nav-tablet.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 105px 55px;
+    }
+
+    .nav__title {
+        font-size: 48px;
+        max-width: 320px;
+    }
+
+    .nav__text {
+        font-size: 15px;
+        max-width: 380px;
+    }
 }
 
 @media screen and (max-width: 710px) {
@@ -240,6 +296,29 @@ header {
     .header__link{
         font-size: 10px
     }
+
+    .nav__container {
+        background-image: url(../img/nav-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav__title{
+        font-size: 40px;
+        text-align: center;
+        max-width: 280px;
+    }
+    .nav__text{
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .nav__link {
+        display: block;
+        margin: 0 auto;
+        max-width: 120px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -273,6 +352,10 @@ header {
         font-size: 15px;
         line-height: 25px;
     }
+
+    .nav__container {
+        padding: 100px 25px;
+    }
 }
 
 @media screen and (max-width: 470px) {
@@ -289,4 +372,43 @@ header {
     .our__img {
         max-width: 290px;
     }
+    .nav__title{
+        font-size: 30px;
+    }
+
+    .nav__text {
+        font-size: 12px;
+    }
+
+    .nav__link {
+        max-width: 85px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+
+
+.wrapper {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box{
+    width: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box-right {
+    border-right: 2px solid #EEEFF2;
+    /* border-bottom: 2px solid  red; */
+}
+.box-left {
+    border-left: 2px solid #EEEFF2;
 }
